@@ -1,20 +1,28 @@
 {
-  "dependencies": {
-    "@svgr/webpack": "^8.1.0",
-    "bootstrap": "^5.3.3",
-    "core-js": "^3.38.1",
-    "express": "^4.21.0",
-    "react": "^18.3.1",
-    "react-bootstrap": "^2.10.5",
-    "react-dom": "^18.3.1",
-    "react-scripts": "^5.0.1",
-    "resolve-url-loader": "^5.0.0"
-  },
+  "name": "assignment-2-dhana7",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/79_d0ssh) [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=16267364) # Assignment2 ![Example Image](ScreenShot.png) # Assignment Description",
+  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bodonnell-DePaul/assignment-2-dhana7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bodonnell-DePaul/assignment-2-dhana7/issues"
+  },
+  "homepage": "https://github.com/bodonnell-DePaul/assignment-2-dhana7#readme",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1"
   },
   "browserslist": {
     "production": [
@@ -27,11 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/plugin-transform-class-properties": "^7.25.7",
-    "@babel/plugin-transform-numeric-separator": "^7.25.7",
-    "@babel/plugin-transform-optional-chaining": "^7.25.7",
-    "@babel/plugin-transform-private-methods": "^7.25.7"
   }
 }
